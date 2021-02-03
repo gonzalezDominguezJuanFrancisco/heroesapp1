@@ -13,6 +13,10 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "allowedCommonJsDependencies": [
+              "loadsh",
+              "highcharts"
+            ],
             "outputPath": "dist/procanciones2",
             "index": "src/index.html",
             "main": "src/main.ts",
