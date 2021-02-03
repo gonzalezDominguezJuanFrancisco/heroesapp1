@@ -21,7 +21,8 @@ export class HeroService {
   //private urlAPI = "http://localhost:3000/api";
 
   // Está subida a heroku:
-  private urlAPI = "https://restapiheroes.herokuapp.com/api"
+  //private urlAPI = "https://restapiheroes.herokuapp.com/api"
+  private urlAPI = "https://heroesapi1.herokuapp.com/api"
   // Estoy sustituyendo la api de mockapi por la mia
   //private url = "https://5fc9f2333c1c22001644152b.mockapi.io/api/heroresapi";
 
